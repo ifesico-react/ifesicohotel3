@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* color: white;*/
+  font-size: 1.5rem;
+  color: white;
+}
+
+#navbar {
+  background-color: rgb(16, 81, 99);
+  top: 0;
+  text-align: right;
+  height: 3.5rem;
+  position: fixed;
+  width: 100%;
+  /*display: inherit;*/
+}
+.logo {
+  float: left;
+  margin-left: 2%;
+}
+#navbar > #link {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 1%;
+  font-size: 1.3rem;
+}
+#link:hover {
+  background-color: rgb(22, 22, 57);
+}
+
+#home {
+  background-image: url("/images/samuel\ edit.jpg");
+  background-size: cover;
+  height: 30rem;
+  padding: 2%;
+}
+.btn,
+.btn1 {
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(22, 22, 57);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 1%;
+  font-size: 1rem;
+  border-style: none;
+  box-shadow: rgb(22, 22, 57) 1px 1px 2px 1px;
+}
+.btn,
+.btn1:hover {
+  color: rgb(124, 123, 123);
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1%;
+  text-align: center;
+  grid-gap: 2rem;
+}
+.service {
+  color: rgb(22, 22, 57);
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 1);
+}
+.service > li {
+  list-style-type: none;
+  font-family: sans-serif;
+}
+.btn > a {
+  text-decoration: none;
+  color: white;
+}
+.btn1 > a {
+  text-decoration: none;
+  color: white;
+}
+.sub-heading {
+  color: rgb(22, 22, 57);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  margin-top: 3%;
+}
+.fa-blog {
+  color: black;
+}
+#contact {
+  text-align: center;
+  padding: 1%;
+  color: black;
+  background-color: gray;
+  height: 28rem;
+  margin-top: 3%;
+}
+#contact-1 {
+  font-size: 2rem;
+  color: rgb(22, 22, 57);
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.address {
+  float: left;
+  font-family: sans-serif;
+}
+.address2 {
+  float: left;
+  margin-left: 25%;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  border-radius: 10px;
+  width: 20rem;
+  padding: 0.3rem;
+  height: 2rem;
+}
+button[type="submit"] {
+  border-radius: 10px;
+  width: 20rem;
+  padding: 0.3rem;
+  height: 2rem;
+  background-color: rgb(22, 22, 57);
+  color: white;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 20rem;
+  padding: 0.3rem;
+  height: 4rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1%;
+  text-align: center;
+  grid-gap: 2rem;
+  height: 35rem;
+}
+.grid-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1%;
+  text-align: center;
+  grid-gap: 2rem;
+  height: 35rem;
+}
+#about {
+  color: rgb(22, 22, 57);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  margin-top: 5%;
+}
+.sub-about {
+  color: rgb(22, 22, 57);
+  transition: 0.3s;
+  box-shadow: none;
+  padding: 5%;
+}
+.foot {
+  background-color: rgb(232, 227, 227);
+  text-align: left;
+
+  padding: 2%;
+  margin-top: 3%;
+}
+.foot-sub {
+  text-align: right;
+  margin-right: 0;
+  word-spacing: 2rem;
+  color: blue;
+  font-size: 1.5rem;
+}
+.fa-square-whatsapp {
+  color: green;
+  font-size: 2rem;
+}
+.icon {
+  color: rgb(59, 59, 178);
+}
+.sv {
+  text-align: left;
+
+  color: #111;
+  font-size: 1rem;
+  word-spacing: 2px;
+  font-family: sans-serif;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropitem {
+  margin-top: -5px;
+  display: none;
+  max-width: 15%;
+  max-height: 25rem;
+  background-color: white;
+  position: absolute;
+}
+.dropitem > a {
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  font-family: tahoma;
+  margin: 0.75rem;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.dropitem > a:hover {
+  color: white;
+  background-color: rgb(22, 22, 57);
+}
+.dropdown:hover .dropitem {
+  display: block;
+}
+.bar {
+  display: none;
+}
+.second {
+  width: 10%;
+  margin: 2%;
+  margin-left: 6%;
+  height: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: rgb(16, 81, 99);
+  background-color: rgb(16, 81, 99);
+  color: white;
+}
+
+/*live chat*/
+
+#chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#chat-messages {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+}
+#chat-input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+#send-button {
+  margin-top: 10px;
+}
+
+/*medial query*/
+@media (max-width: 75em) {
+  #navbar {
+    text-align: center;
+    height: 15rem;
+    width: 50%;
+  }
+
+  .logo {
+    float: none;
+  }
+  #navbar > #link {
+    display: block;
+  }
+  #home {
+    height: 32rem;
+  }
+  .btn,
+  .btn1 {
+    width: 100%;
+  }
+
+  .grid,
+  .grid-card {
+    grid-template-columns: auto auto;
+    height: 25rem;
+  }
+  #about {
+    margin-top: 10%;
+  }
+
+  .sub-about {
+    color: rgb(22, 22, 57);
+    box-shadow: none;
+  }
+
+  .navbar2 {
+    display: none;
+  }
+}
+/*mobile size*/
+@media (max-width: 59em) {
+  .grid,
+  .grid-card {
+    grid-template-columns: auto;
+    height: 55rem;
+  }
+
+  #about {
+    margin-top: 15%;
+  }
+  #contact-1 {
+    margin-top: 15%;
+    text-align: center;
+  }
+  .address,
+  .address2 {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin-left: 0;
+  }
+  #contact {
+    height: 40rem;
+  }
+  #nav {
+    background-color: rgb(16, 81, 99);
+    text-align: left;
+    height: 3.5rem;
+    position: fixed;
+    width: 100%;
+  }
+  .navbar2 {
+    display: none;
+  }
+  .nav-button {
+    width: 10%;
+    margin: 2%;
+    margin-left: 6%;
+    height: 2rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #navbar {
+    padding: 5%;
+    padding-top: 15%;
+    height: 10rem;
+  }
+}
